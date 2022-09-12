@@ -686,6 +686,44 @@ footer{
                                                                                                 
                                                                                                 }
 
+                                                                                                @media only screen and (max-width: 800px) {
+                                                                                                    .menu-section{
+                                                                                                        padding: 0px 6rem;
+                                                                                                        display: flex;
+                                                                                                        align-items: center;
+                                                                                                        h3{
+                                                                                                        font-size: 8rem;
+                                                                                                        letter-spacing: 0.1rem;
+                                                                                                        line-height: 90%;
+                                                                                                        font-family: 'Bigilla', sans-serif;
+                                                                                                        color: #F2C791;
+                                                                                                        margin-top: 6rem;
+                                                                                                        }
+                                                                                                    }
+                                                                                                    
+                                                                                                    .menu-items{
+                                                                                                        flex-direction: column;
+                                                                                                        padding-bottom: 10rem;
+                                                                                                        padding: 0px 6rem;
+                                                                                                        .menu-section2{
+                                                                                                            width: 100%;
+                                                                                                          margin-left: 0rem;
+                                                                                                        }
+                                                                                                        .pizza{
+                                                                                                            max-width: 60rem;
+                                                                                                            max-height: 60rem;
+                                                                                                        }
+                                                                                                        .pizza2{
+                                                                                                            max-width: 50rem;
+                                                                                                            max-height: 40rem;
+                                                                                                            margin-top: 6rem;
+                                                                                                        }
+                                                                                                        .item2{
+                                                                                                            margin-bottom: 15rem;
+                                                                                                        }
+                                                                                                    }
+                                                                                                    }
+
 
                                                                                
 
@@ -737,6 +775,38 @@ footer{
                                                      .menu-section h3 {
                                                         font-size: 8rem;
                                                      }
+                                                     .menu-section{
+                                                        padding: 0px 2rem;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        h3{
+                                                        font-size: 8rem;
+                                                        letter-spacing: 0.1rem;
+                                                        line-height: 90%;
+                                                        font-family: 'Bigilla', sans-serif;
+                                                        color: #F2C791;
+                                                        margin-top: 6rem;
+                                                        }
+                                                    }
+                                                    
+                                                    .menu-items{
+                                                        flex-direction: column;
+                                                        padding-bottom: 10rem;
+                                                        padding: 0px 4rem;
+                                                        .menu-section2{
+                                                            width: 100%;
+                                                          margin-left: 0rem;
+                                                        }
+                                                        .pizza{
+                                                            max-width: 32rem;
+                                                            max-height: 30rem;
+                                                        }
+                                                        .pizza2{
+                                                            max-width: 32rem;
+                                                            max-height: 20rem;
+                                                            margin-top: 6rem;
+                                                        }
+                                                    }
                                                      .bar-section{
                                                         padding: none;
                                                         padding-bottom: 10rem;
@@ -777,6 +847,7 @@ footer{
                                             }
                                             
                                             .menu-items{
+                                                padding: 0px 4rem;
                                                 .pizza{
                                                     width: 40rem;
                                                     height: 50rem;
@@ -785,6 +856,9 @@ footer{
                                                     width: 40rem;
                                                     height: 20rem;
                                                     margin-top: 8rem;
+                                                }
+                                                .item2{
+                                                    margin-bottom: 4rem;
                                                 }
                                             }
                                             .bar-section{
@@ -869,9 +943,10 @@ footer{
     margin-top: 6rem;
 }
  .menu-section{
-    padding: 0px 2rem;
+    padding: none;
     display: flex;
     align-items: center;
+    justify-content: center;
     h3{
     font-size: 8rem;
     letter-spacing: 0.1rem;
