@@ -36,6 +36,7 @@ h1 {
   letter-spacing: 0.1rem;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
 }
 
@@ -44,6 +45,7 @@ h2 {
   color: #F2C791;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
 }
 
 h3 {
@@ -168,6 +170,7 @@ hr {
 
 .year p {
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   font-size: 6.4rem;
   color: #F2C791;
   line-height: 120%;
@@ -231,6 +234,7 @@ hr {
   letter-spacing: 0.1rem;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
   margin-top: 15rem;
 }
@@ -255,6 +259,7 @@ hr {
   letter-spacing: 0.1rem;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
 }
 
@@ -274,6 +279,7 @@ hr {
   letter-spacing: 0.1rem;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
 }
 
@@ -288,6 +294,7 @@ hr {
   letter-spacing: 0.1rem;
   line-height: 90%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
   z-index: 100;
   position: absolute;
@@ -384,6 +391,7 @@ hr {
   letter-spacing: 0.1rem;
   line-height: 110%;
   font-family: 'bigillaregular', Arial, sans-serif;
+  font-weight: 400;
   color: #F2C791;
   position: absolute;
   z-index: 100;
@@ -473,6 +481,7 @@ footer .address-icon {
     letter-spacing: 0.1rem;
     line-height: 90%;
     font-family: 'bigillaregular', Arial, sans-serif;
+    font-weight: 400;
     color: #F2C791;
     margin-top: 15rem;
   }
@@ -494,6 +503,7 @@ footer .address-icon {
     letter-spacing: 0.1rem;
     line-height: 90%;
     font-family: 'bigillaregular', Arial, sans-serif;
+    font-weight: 400;
     color: #F2C791;
   }
   .menu-items .menu-section2 {
@@ -510,6 +520,7 @@ footer .address-icon {
     letter-spacing: 0.1rem;
     line-height: 90%;
     font-family: 'bigillaregular', Arial, sans-serif;
+    font-weight: 400;
     color: #F2C791;
   }
 }
