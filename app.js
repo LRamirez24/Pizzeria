@@ -50,7 +50,7 @@ gsap.from(".menu-section", {
 
 
 gsap.from(".menu-items", {
-    x: -100,
+    x: 200,
     y: 100,
     opacity: 0,
     stagger: 0.8,

@@ -17,6 +17,7 @@ body {
     font-family: 'sk-modernist-regular', sans-serif;
     background-color: #0D0D0D;
     color: #fff;
+    overflow-x: hidden;
    
 }
 
@@ -509,62 +510,58 @@ footer{
          
          .image-section{
              display: flex;
-             padding: 0px 2rem;
+             padding: 0px 6rem;
              align-items: center;
-             justify-content: center;
+             justify-content: space-between;
              position: relative;
-             flex-direction: column;
+    
              
          
              .table{
-                 width: 30rem;
-                 height: 40rem;
+                 width: 40rem;
+                 height: 60rem;
              }
              .bar-night{
-                 width: 30rem;
-                 height: 40rem;
-                 margin-top: 8rem;
+                 width: 40rem;
+                 height: 60rem;
+               
              }
          }
          
          .image-section2{
              display: flex;
-             padding: 0px 2rem;
+             padding: 0px 6rem;
              align-items: center;
-             justify-content: center;
+             justify-content: space-between;
              margin-top: 8rem;
              padding-bottom: 8rem;
-             flex-direction: column;
+             
          
              .drink{
-                 width: 30rem;
-                 height: 40rem;
+                 width: 40rem;
+                 height: 60rem;
              }
              .chef{
-                 width: 30rem;
-                 height: 40rem;
-                 margin-top: 8rem;
+                 width: 40rem;
+                 height: 60rem;
+                 margin-top: 0rem;
              }
          }
          
          .image-text{
-             padding: none;
-             text-align: center;
-             display: flex;
-             align-items: center;
-             justify-content: center;
-             .text{
-                 font-size: 6.4rem;
-             letter-spacing: 0.1rem;
-             line-height: 110%;
-             font-family: 'Bigilla', sans-serif;
-             color: #F2C791;
-             position: relative;
-             z-index: 100;
-             margin-top: 8rem;
-             
-             }
-         }
+            padding: 0px 6rem;
+            text-align: center;
+            .text{
+                font-size: 16rem;
+            letter-spacing: 0.1rem;
+            line-height: 110%;
+            font-family: 'Bigilla', sans-serif;
+            color: #F2C791;
+            position: absolute;
+            z-index: 100;
+            margin-top: -40rem;
+            }
+        }
          
          // Footer
          
@@ -733,6 +730,64 @@ footer{
                                                                                                     }
                                                                                                    
                                                                                                 }
+                                                                                                .image-section{
+                                                                                                    display: flex;
+                                                                                                    padding: 0px 6rem;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                    position: relative;
+                                                                                                    flex-direction: column;
+                                                                                                    
+                                                                                                
+                                                                                                    .table{
+                                                                                                        width: 30rem;
+                                                                                                        height: 40rem;
+                                                                                                    }
+                                                                                                    .bar-night{
+                                                                                                        width: 30rem;
+                                                                                                        height: 40rem;
+                                                                                                        margin-top: 8rem;
+                                                                                                    }
+                                                                                                }
+                                                                                                
+                                                                                                .image-section2{
+                                                                                                    display: flex;
+                                                                                                    padding: 0px 6rem;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                    margin-top: 8rem;
+                                                                                                    padding-bottom: 8rem;
+                                                                                                    flex-direction: column;
+                                                                                                
+                                                                                                    .drink{
+                                                                                                        width: 30rem;
+                                                                                                        height: 40rem;
+                                                                                                    }
+                                                                                                    .chef{
+                                                                                                        width: 30rem;
+                                                                                                        height: 40rem;
+                                                                                                        margin-top: 8rem;
+                                                                                                    }
+                                                                                                }
+                                                                                                
+                                                                                                .image-text{
+                                                                                                    padding: none;
+                                                                                                    text-align: center;
+                                                                                                    display: flex;
+                                                                                                    align-items: center;
+                                                                                                    justify-content: center;
+                                                                                                    .text{
+                                                                                                        font-size: 6.4rem;
+                                                                                                    letter-spacing: 0.1rem;
+                                                                                                    line-height: 110%;
+                                                                                                    font-family: 'Bigilla', sans-serif;
+                                                                                                    color: #F2C791;
+                                                                                                    position: relative;
+                                                                                                    z-index: 100;
+                                                                                                    margin-top: 8rem;
+                                                                                                    
+                                                                                                    }
+                                                                                                }
                                                                                                 
                                                                                                 }
 
@@ -772,6 +827,7 @@ footer{
                                                                                                             margin-bottom: 15rem;
                                                                                                         }
                                                                                                     }
+                                                                                                    
                                                                                                     }
 
 

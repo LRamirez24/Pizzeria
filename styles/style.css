@@ -13,6 +13,7 @@ body {
   font-family: 'sk-modernist-regular', sans-serif;
   background-color: #0D0D0D;
   color: #fff;
+  overflow-x: hidden;
 }
 
 ul {
@@ -545,77 +546,59 @@ footer .address-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0px 2rem;
+    padding: 0px 6rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     position: relative;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .image-section .table {
-    width: 30rem;
-    height: 40rem;
+    width: 40rem;
+    height: 60rem;
   }
   .image-section .bar-night {
-    width: 30rem;
-    height: 40rem;
-    margin-top: 8rem;
+    width: 40rem;
+    height: 60rem;
   }
   .image-section2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0px 2rem;
+    padding: 0px 6rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 8rem;
     padding-bottom: 8rem;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .image-section2 .drink {
-    width: 30rem;
-    height: 40rem;
+    width: 40rem;
+    height: 60rem;
   }
   .image-section2 .chef {
-    width: 30rem;
-    height: 40rem;
-    margin-top: 8rem;
+    width: 40rem;
+    height: 60rem;
+    margin-top: 0rem;
   }
   .image-text {
-    padding: none;
+    padding: 0px 6rem;
     text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .image-text .text {
-    font-size: 6.4rem;
+    font-size: 16rem;
     letter-spacing: 0.1rem;
     line-height: 110%;
     font-family: 'Bigilla', sans-serif;
     color: #F2C791;
-    position: relative;
+    position: absolute;
     z-index: 100;
-    margin-top: 8rem;
+    margin-top: -40rem;
   }
   footer {
     display: -webkit-box;
@@ -786,6 +769,82 @@ footer .address-icon {
     position: absolute;
     left: 20%;
     top: 10%;
+  }
+  .image-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px 6rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image-section .table {
+    width: 30rem;
+    height: 40rem;
+  }
+  .image-section .bar-night {
+    width: 30rem;
+    height: 40rem;
+    margin-top: 8rem;
+  }
+  .image-section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0px 6rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 8rem;
+    padding-bottom: 8rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image-section2 .drink {
+    width: 30rem;
+    height: 40rem;
+  }
+  .image-section2 .chef {
+    width: 30rem;
+    height: 40rem;
+    margin-top: 8rem;
+  }
+  .image-text {
+    padding: none;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .image-text .text {
+    font-size: 6.4rem;
+    letter-spacing: 0.1rem;
+    line-height: 110%;
+    font-family: 'Bigilla', sans-serif;
+    color: #F2C791;
+    position: relative;
+    z-index: 100;
+    margin-top: 8rem;
   }
 }
 
@@ -1239,7 +1298,7 @@ footer .address-icon {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-bottom: 20rem;
+    padding-bottom: 15rem;
     text-align: center;
   }
   footer a {
